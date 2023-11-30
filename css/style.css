@@ -32,7 +32,7 @@ body {
     background: url('../images/topo-imagem-principal.png') no-repeat;
 }
 
-#menu {
+#area-menu {
     position: absolute;
     top: 0;
     right: 0;
@@ -85,4 +85,34 @@ a.reserva {
 
 .clear {
     clear: both;
+}
+
+#menu {
+    margin-top: 15px;
+}
+
+.depoimento {
+    width: 226px;
+    height: 164px;
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+ul#navegacao {
+    float: left;
+}
+
+ul#navegacao>li>a {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    color: #6e672c;
+    line-height: 30px;
+}
+
+ul#navegacao>li>a:hover {
+    background-color: #fdf6be;
 }
